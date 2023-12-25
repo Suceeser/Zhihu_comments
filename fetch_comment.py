@@ -9,21 +9,7 @@ class zhihuSpider():
             "Everything": None
         }
         self.headers = {
-            'authority': 'www.zhihu.com',
-            'accept': '*/*',
-            'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-            'cache-control': 'no-cache',
-            'pragma': 'no-cache',
-            'referer': 'https://www.zhihu.com/question/289222749/answer/2251138943',
-            'sec-ch-ua': '"Microsoft Edge";v="119", "Chromium";v="119", "Not?A_Brand";v="24"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"Windows"',
-            'sec-fetch-dest': 'empty',
-            'sec-fetch-mode': 'cors',
-            'sec-fetch-site': 'same-origin',
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
-            'x-requested-with': 'fetch',
-            'x-zse-93': '101_3_3.0',
+            "Everything": None
         }
 
         self.comment_num = 0
