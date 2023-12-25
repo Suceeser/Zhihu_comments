@@ -6,18 +6,7 @@ class zhihuSpider():
     def __init__(self):
         self.ctx = execjs.compile(open('x96.js', 'r', encoding='utf-8').read())
         self.cookies = {
-            '_zap': '6eb98055-ad68-4e2a-86f0-a07c9b7565d1',
-            'd_c0': '',
-            'YD00517437729195%3AWM_TID': 'ZTBJf%2BHI1wxFRERQEBLEzIoYAeVoXXU6',
-            '__snaker__id': 'evZ7WGWiWeejVMBh',
-            '_xsrf': '8bd409b0-aee2-4e29-9d53-901838e2a34c',
-            'Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49': '1697695113,1697721231,1697738052,1697808664',
-            'gdxidpyhxdE': '4SL3hY3M62d4Hwhs%5CwQmOLdw4j1diCaz2U4BN6rlIk%2FiOPByQD3je%5CSyBh%2FAaNm%5CH3g5szt63DXLGGEylf10S2uRQpvsf3rNA6vz%5CyKBuMGekOetpr9PttJ%2B0utBo8XIa1RDgO3KQztkqdHkeCM8lgGsjLdx73lmRA2k7%2BAC3bOiBVaV%3A1697809573312',
-            'YD00517437729195%3AWM_NI': 'fc8EYiaP39YPLe65gMb2OqY0bQOAx5d%2B3IO%2FszttcjNubkdYoEiVmI38Q7MXKBbH0OvXBjw5PCWqn6xgAHb%2BTqkbGMYs58BdkwNuyjNDlpAERiIP1JTjsIZ5JUzbJdv9Mkg%3D',
-            'YD00517437729195%3AWM_NIKE': '9ca17ae2e6ffcda170e2e6eeb2e221b1bd008bce44e9e78fb7c14b929a8bacd872f188fdaecd5ffbe9afd0ea2af0fea7c3b92aa6bdf8a6dc63a390fddadc5c90bbfad6e647a2ee8192dc3ca28f81a2fb3fa8f5fdaace25b1a6bc95e2628eabae8ce753ad9ba7b7f043f1e89fd8d054899eaea9b345b6888e8bf63f949d9992ed3ebcb98fa9e12198afa583c6479badfbd9c170a9a98296fc628e9ca491c44f92b787b1b44298b6bdaad93f8a8bb683c970b6e7838ce637e2a3',
-            'Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49': '1697808746',
-            'captcha_session_v2': '2|1:0|10:1697808748|18:captcha_session_v2|88:TmxOemVaU2MvaFFnRW1wWGt0ejJMblRKZm9aQWl1MitTQVkyb20xcTEyeGFydzFicEQ0M0gvZUF2dXh1TGtUSQ==|12fbfe3713e0f10d78ded2e5634a49a916b4e7f9a215938c83e11f27e289390b',
-            'KLBRSID': 'fb3eda1aa35a9ed9f88f346a7a3ebe83|1697808781|1697808663',
+            "Everything": None
         }
         self.headers = {
             'authority': 'www.zhihu.com',
