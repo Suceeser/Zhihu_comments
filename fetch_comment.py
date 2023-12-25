@@ -7,7 +7,7 @@ class zhihuSpider():
         self.ctx = execjs.compile(open('x96.js', 'r', encoding='utf-8').read())
         self.cookies = {
             '_zap': '6eb98055-ad68-4e2a-86f0-a07c9b7565d1',
-            'd_c0': '',
+            'd_c0': 'ADDT6iqwghePTrm2HJc9Vx-dFLRPRKXxuQw=|1696687324',
             'YD00517437729195%3AWM_TID': 'ZTBJf%2BHI1wxFRERQEBLEzIoYAeVoXXU6',
             '__snaker__id': 'evZ7WGWiWeejVMBh',
             '_xsrf': '8bd409b0-aee2-4e29-9d53-901838e2a34c',
@@ -132,7 +132,7 @@ class zhihuSpider():
         return simple_data
 
 def fetch_comments(target_answer_ids):
-    print('如果失效，请更新cookie')
+    print('如果失效，请更新cookie，主要是d_c0参数')
     for target_answer_id in target_answer_ids:
         zhihuSpider().fetch_root_comment(
             f'/api/v4/comment_v5/answers/{target_answer_id}/root_comment?order_by=score&limit=20&offset=')
