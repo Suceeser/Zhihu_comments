@@ -7,7 +7,7 @@ class zhihuSpider():
         self.ctx = execjs.compile(open('x96.js', 'r', encoding='utf-8').read())
         self.cookies = {
             '_zap': '6eb98055-ad68-4e2a-86f0-a07c9b7565d1',
-            'd_c0': 'ADDT6iqwghePTrm2HJc9Vx-dFLRPRKXxuQw=|1696687324',
+            'd_c0': '',
             'YD00517437729195%3AWM_TID': 'ZTBJf%2BHI1wxFRERQEBLEzIoYAeVoXXU6',
             '__snaker__id': 'evZ7WGWiWeejVMBh',
             '_xsrf': '8bd409b0-aee2-4e29-9d53-901838e2a34c',
