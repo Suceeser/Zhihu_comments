@@ -12,9 +12,6 @@
 - pip install pyexecjs2
 
 ## 运行
-
-首先更新cookie
-
 pycharm打开文件fetch_comment.py 右键运行
 
 ## 评论处理
