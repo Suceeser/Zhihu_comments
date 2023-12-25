@@ -7,7 +7,6 @@
 - python
 - npm install -g jsdom
 - npm install -g crypto-js
-- npm install canvas -g --canvas_binary_host_mirror=https://registry.npmmirror.com/-/binary/canvas
 - pip install requests
 - pip install pyexecjs2
 
